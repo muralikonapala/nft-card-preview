@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(/font/Outfit-VariableFont_wght.ttf);
+}
+body{
+    font-family: 'Outfit';
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+.equilibrium{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 20px;
+}
+p{
+    font-weight: 300;
+}
+.equilibrium-image{
+    background-image: url(/images/image-equilibrium.jpg);
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+    background-size: cover;
+}
+.equilibrium-image:hover .image-effect{  
+    height: 100%; 
+    opacity: 0.6;
+    background-image: url(/images/icon-view.svg);
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 12px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.amount-days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.days{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+hr{
+    background-color: white;
+    height: 0.05px;
+    width: 300px;
+}
+.creator{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: left;
+}
+.creator img{
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.creator b:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
